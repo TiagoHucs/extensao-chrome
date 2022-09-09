@@ -1,5 +1,6 @@
 function reddenPage() {
   document.body.style.backgroundColor = 'red';
+  document.getElementById('inputUserName').value = 'usuario-teste';
   window.alert('works')
 }
 
